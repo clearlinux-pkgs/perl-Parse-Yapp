@@ -4,7 +4,7 @@
 #
 Name     : perl-Parse-Yapp
 Version  : 1.21
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Summary  : Perl/CPAN Module Parse::Yapp : Generates OO LALR parser modules
@@ -30,7 +30,6 @@ bin components for the perl-Parse-Yapp package.
 Summary: dev components for the perl-Parse-Yapp package.
 Group: Development
 Requires: perl-Parse-Yapp-bin = %{version}-%{release}
-Requires: perl-Parse-Yapp-man = %{version}-%{release}
 Provides: perl-Parse-Yapp-devel = %{version}-%{release}
 Requires: perl-Parse-Yapp = %{version}-%{release}
 
@@ -83,13 +82,13 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Driver.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Lalr.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Options.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Output.pm
-/usr/lib/perl5/vendor_perl/5.28.1/Parse/Yapp/Parse.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Driver.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Grammar.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Lalr.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Options.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Output.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Parse/Yapp/Parse.pm
 
 %files bin
 %defattr(-,root,root,-)
