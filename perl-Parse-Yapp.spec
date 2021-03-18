@@ -4,7 +4,7 @@
 #
 Name     : perl-Parse-Yapp
 Version  : 1.21
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Summary  : unknown
@@ -108,10 +108,10 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Driver.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Lalr.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Options.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Output.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Parse/Yapp/Parse.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Driver.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Grammar.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Lalr.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Options.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Output.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Parse.pm
