@@ -108,10 +108,10 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Driver.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Grammar.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Lalr.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Options.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Output.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Parse/Yapp/Parse.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Driver.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Grammar.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Lalr.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Options.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Output.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Parse/Yapp/Parse.pm
