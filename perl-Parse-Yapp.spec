@@ -4,7 +4,7 @@
 #
 Name     : perl-Parse-Yapp
 Version  : 1.21
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz
 Summary  : unknown
